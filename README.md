@@ -50,7 +50,7 @@ Se encontrará toda la documentación asociado al consumo de los servicios REST.
 
 ## Test Data
 
-Para la inyección de datos con localizaciones de propiedades, revisar el siguiente jupyter notebook https://github.com/felipesanma/houmer-markers/blob/master/data/Get%20Properties%20Data%20-%20Houm_Challenge.ipynb
+Para la inyección de datos con localizaciones de propiedades, revisar el siguiente [jupyter notebook](https://github.com/felipesanma/houmer-markers/blob/master/data/Get%20Properties%20Data%20-%20Houm_Challenge.ipynb)
 
 
 ## To do
