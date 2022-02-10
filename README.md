@@ -11,7 +11,7 @@ La solución planteada, se conforma de:
 
 Dado que hay "n" houmers y estos envían sus coordenadas cada "t" tiempo, el diseño lógico de la solución es el siguiente:
 
-(houmer_logic.png)
+[](houmer_logic.png)
 
 
 
