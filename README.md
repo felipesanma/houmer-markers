@@ -2,18 +2,20 @@
 
 Solución al desafío planteado por Houm, para obtener métricas sobre sus Houmers
 
-La solución planteada, se conforma de:
-
-* Base de datos MySQL
-* Broker RabbitMQ
-* FastAPI
-* Docker
-
 Dado que hay "n" houmers y estos envían sus coordenadas cada "t" tiempo, el diseño lógico de la solución es el siguiente:
 
 ![Alt text](houmer_logic.png)
 
+El flujo celeste (iniciado desde el houmer):
 
+1. Houmer manda sus coordenadas.
+2. Estos se insertan en la db.
+3. Se pública el houmer_id hacia un message brocker
+4. Se responde 200 ok.
+
+El mensaje públicado, es consumido por dos subscriptores, que calculan distintas métricas y actualizan la base de datos.
+
+Cuando se consulta por actividad del houmer en particular, el servicio REST lo obtiene directamente desde una query hacia la base de datos.
 
 ## Consideraciones
 
