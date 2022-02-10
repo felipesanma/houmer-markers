@@ -1,0 +1,18 @@
+version: '3'
+services:
+  houmer_activity:
+    build: houmer_activity
+    volumes:
+      - ./houmer_activity:/app
+
+  houmer_in_property:
+    build: houmer_in_property
+    volumes:
+      - ./houmer_in_property:/app
+
+  houmerapi:
+    build: api
+    volumes:
+      - ./api:/app
+    ports:
+      - 8080:8080
