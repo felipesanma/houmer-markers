@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T02:57:28.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="y_wGC4_qrk7A2_HxO0a3" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T14:49:57.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="VvpxftDbK0IG7aYii1qk" version="18.0.6" type="github">
   <diagram id="LXx671ARqKm9I8pxFTP9" name="CORONA-AWS-ARQ">
-    <mxGraphModel dx="2063" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2426" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
             <mxPoint x="1348.2499999999995" y="379.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fknOob95_OexV_iy1Tpi-2" value="Glue" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;fontSize=16;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;labelPosition=right;" parent="1" vertex="1">
+        <mxCell id="fknOob95_OexV_iy1Tpi-2" value="Glue Jobs" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;fontSize=16;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;labelPosition=right;" parent="1" vertex="1">
           <mxGeometry x="1310" y="241.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ej7iwDQhJSngKNtWC0X_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;strokeColor=#82B366;strokeWidth=3;" parent="1" source="fknOob95_OexV_iy1Tpi-6" target="ej7iwDQhJSngKNtWC0X_-8" edge="1">
@@ -65,8 +65,8 @@
         <mxCell id="WhxQLRvmUJIrhDaXWKlA-7" value="&lt;div&gt;Características&lt;/div&gt;&lt;ul&gt;&lt;li&gt;VMWare&lt;br&gt;&lt;/li&gt;&lt;li&gt;Oracle 10G (Orion) y 12C&lt;/li&gt;&lt;li&gt;Standalone&lt;/li&gt;&lt;li&gt;LAN&lt;/li&gt;&lt;li&gt;On-premise&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="-170" y="240" width="211" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="WhxQLRvmUJIrhDaXWKlA-10" value="&quot;Carpetas compartidas&quot;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-02-128.png;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="290" y="461" width="98" height="98" as="geometry" />
+        <mxCell id="WhxQLRvmUJIrhDaXWKlA-10" value="Archivos excel locales" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-02-128.png;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="296" y="445" width="98" height="98" as="geometry" />
         </mxCell>
         <mxCell id="WhxQLRvmUJIrhDaXWKlA-11" value="&lt;div&gt;Categorías&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Retail&lt;/li&gt;&lt;li&gt;Logística&lt;/li&gt;&lt;li&gt;Financiero&lt;/li&gt;&lt;li&gt;Seguros&lt;/li&gt;&lt;li&gt;Cobranzas&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="-170" y="430" width="190" height="170" as="geometry" />
@@ -124,6 +124,9 @@
         </mxCell>
         <mxCell id="ej7iwDQhJSngKNtWC0X_-17" value="" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="1659" y="757.25" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvGrf8e_OOS6FSezk0F-1" value="Confluence" style="image;image=img/lib/atlassian/Confluence_Logo.svg;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="454" width="93" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
